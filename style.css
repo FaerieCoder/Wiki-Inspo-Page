@@ -54,7 +54,7 @@ aside {
 	background-color: #eeedec;
 	padding: 15px;
 	border: 1px solid #7d6448;
-	height: 55em;
+	height: 70em;
 }
 
 /* ARTICLE TITLE */
@@ -85,6 +85,18 @@ ol > li > a:hover {
 }
 
 /* ASIDE SECTION */
+aside > article > h2 {
+	background-color: #beb2a4;
+	padding: 3px;
+	text-align: center;
+	margin: 7px 0;
+}
+aside > .image {
+	width: 100%;
+}
+aside > .image > img {
+	width: 100%;
+}
 
 img {
 	width: 100px;
