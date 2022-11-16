@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Mukta:wght@400;500;600&family=Playfair+Display:wght@400;500&display=swap'");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Mukta:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap");
 
 :root {
 	--brown: #7d6448;
@@ -8,6 +8,13 @@ body {
 	margin: 0;
 	padding: 0;
 	color: #252525;
+	font-family: "Mukta", sans-serif;
+	font-size: 14px;
+}
+h1,
+h2,
+h3 {
+	font-family: "Playfair Display";
 }
 
 /* HEADER BAR */
@@ -25,4 +32,36 @@ header > p {
 	text-align: center;
 	word-spacing: 2px;
 	letter-spacing: 1px;
+}
+
+/* CONTAINERS AND WRAPPER */
+main {
+	width: 75%;
+	margin: auto;
+	margin-top: 120px;
+}
+.main-content {
+	background-color: #ff7f7f;
+	display: grid;
+	grid-template-columns: 75% 25%;
+}
+.main-article-wrapper {
+	background-color: #7fffd4;
+}
+aside {
+	background-color: #beacff;
+	padding: 10px;
+}
+
+/* ARTICLE TITLE */
+main > h1 {
+	/* background-color: #ffec7f; */
+	border-bottom: 2px solid #beb2a4;
+	padding-bottom: 5px;
+	font-style: italic;
+	font-size: 2.7em;
+}
+
+img {
+	width: 100px;
 }
