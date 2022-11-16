@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Mukta:wght@400;500;600&family=Playfair+Display:wght@400;500&display=swap'");
+
+:root {
+	--brown: #7d6448;
+	--light-brown: #a58c6c;
+}
+body {
+	margin: 0;
+	padding: 0;
+	color: #252525;
+}
+
+/* HEADER BAR */
+header {
+	width: 100%;
+	background-color: #cfc6ba;
+	margin: 0;
+	border-bottom: 1px solid #beb2a4;
+}
+header > p {
+	margin: 0;
+	padding: 3px;
+	font-size: 2em;
+	font-family: "Abril Fatface", cursive;
+	text-align: center;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+}
