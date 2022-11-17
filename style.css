@@ -99,6 +99,12 @@ aside > .image {
 aside > .image > img {
 	width: 100%;
 }
+table {
+	width: 100%;
+}
+.center {
+	text-align: center;
+}
 
 /* MAIN ARTICLES */
 .mini-image {
@@ -116,6 +122,7 @@ aside > .image > img {
 }
 sup > a {
 	color: var(--brown);
+	text-decoration: none;
 }
 
 /* FOOTER SECTION */
