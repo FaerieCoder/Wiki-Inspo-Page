@@ -40,6 +40,7 @@ main {
 	width: 70%;
 	margin: auto;
 	margin-top: 120px;
+	margin-bottom: 20px;
 }
 .main-content {
 	/* background-color: #ff7f7f; */
@@ -80,7 +81,8 @@ ol > li > a {
 	padding-left: 10px;
 	color: #252525;
 }
-ol > li > a:hover {
+ol > li > a:hover,
+sup > a:hover {
 	color: #a58c6c;
 }
 
@@ -102,14 +104,31 @@ aside > .image > img {
 .mini-image {
 	float: left;
 	margin-right: 10px;
-	background-color: #beb2a4;
+	background-color: #eeedec;
 	border: 1px solid #7d6448;
 	padding: 5px;
 	display: flex;
 }
-
 .mini-image > img {
 	margin: 0;
 	width: 120px;
 	border: 1px solid #7d6448;
+}
+sup > a {
+	color: var(--brown);
+}
+
+/* FOOTER SECTION */
+footer {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-bottom: 40px;
+}
+footer > p > a {
+	color: var(--brown);
+	transition: 300ms;
+}
+footer > p > a:hover {
+	color: var(--light-brown);
 }
