@@ -98,6 +98,18 @@ aside > .image > img {
 	width: 100%;
 }
 
-img {
-	width: 100px;
+/* MAIN ARTICLES */
+.mini-image {
+	float: left;
+	margin-right: 10px;
+	background-color: #beb2a4;
+	border: 1px solid #7d6448;
+	padding: 5px;
+	display: flex;
+}
+
+.mini-image > img {
+	margin: 0;
+	width: 120px;
+	border: 1px solid #7d6448;
 }
